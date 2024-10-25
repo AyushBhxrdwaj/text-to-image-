@@ -34,7 +34,7 @@ body{
 }
 
 .container h1::before{
-    content:"TEXT TO IMAGE";
+    content:"THOUGHTS";
     position:absolute;
     top:-2px;
     left:-4px;
