@@ -3,9 +3,9 @@ const button = document.querySelector('.container button')
 let token = "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"
 let value = document.querySelector(".container input")
 const image = document.querySelector(".img img")
+let p = document.querySelector(".container p")
 let downloadbtn = document.querySelector(".download")
 
-// GSAP animations remain the same
 tl.from(".container h1", {
     y: -50,
     delay: 0.5,
@@ -44,6 +44,7 @@ async function query() {
 	return result;
 }
 button.addEventListener('click',async function() {
+    p.style.display = "block"
     if(!value.value.trim()){
         alert("Enter a Prompt")
         return
@@ -52,6 +53,7 @@ button.addEventListener('click',async function() {
         let url = URL.createObjectURL(response)
         image.src = url
         downloadbtn.style.display ="block"
+        p.style.display = "none"
         console.log("image gnerated")
         downloadbtn.addEventListener("click",()=>{
             console.log(url)

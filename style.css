@@ -79,6 +79,9 @@ body{
     font-size: 12px;
     font-weight: 900;
 }
+.container p{
+    display: none;
+}
 html,body{
     height: 100%;
     width: 100%;
