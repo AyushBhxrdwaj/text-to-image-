@@ -1,6 +1,6 @@
 const tl = gsap.timeline()
 const button = document.querySelector('.container button')
-let token = "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"
+let token = "******************"
 let value = document.querySelector(".container input")
 const image = document.querySelector(".img img")
 let p = document.querySelector(".container p")
