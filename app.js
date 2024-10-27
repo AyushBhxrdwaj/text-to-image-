@@ -101,7 +101,6 @@ button.addEventListener('click',async function() {
 
 
 
-
 // async function query() {
 //     try {
 //         console.log("Sending prompt:", value.value); // Debug log
