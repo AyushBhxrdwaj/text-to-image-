@@ -2,8 +2,6 @@
 
 A sleek and modern web application that converts text descriptions into images using the FLUX.1 AI model. Built with vanilla JavaScript and enhanced with GSAP animations for a smooth user experience.
 
-![Project Preview](preview.png)
-
 ## ✨ Features
 
 - **Text-to-Image Conversion**: Generate images from textual descriptions
@@ -11,10 +9,6 @@ A sleek and modern web application that converts text descriptions into images u
 - **Modern UI**: Clean, dark-mode interface with smooth animations
 - **Download Functionality**: Easy one-click image download
 - **Responsive Design**: Works seamlessly across different screen sizes
-
-## 🚀 Live Demo
-
-[View Live Demo](#) <!-- Add your deployed project link when available -->
 
 ## 🛠️ Tech Stack
 
@@ -72,10 +66,6 @@ Contributions, issues, and feature requests are welcome!
 3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
 4. Push to the branch: `git push origin feature/AmazingFeature`
 5. Open a Pull Request
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Contact
 
